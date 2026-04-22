@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Révision complète & élargie : Monnaie I - Pr Errachid Majidi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #eef2f5;
+            font-family: 'Segoe UI', 'Roboto', 'Noto Sans Arabic', 'Tahoma', sans-serif;
+            line-height: 1.6;
+            color: #1a2c3c;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 38px;
+            box-shadow: 0 30px 50px -20px rgba(0,0,0,0.2);
+            overflow: hidden;
+            padding: 2.2rem 2rem;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 4px solid #2c7da0;
+            padding-bottom: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .header h1 {
+            font-size: 2.2rem;
+            color: #0a3b4f;
+            font-weight: 800;
+        }
+        .header p {
+            font-size: 1rem;
+            color: #2c7da0;
+            font-weight: 500;
+        }
+        .chapitre {
+            margin-bottom: 2.6rem;
+            border-radius: 30px;
+            background: #ffffff;
+            border: 1px solid #e2edf2;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.02);
+        }
+        .chapitre-titre {
+            background: #f6fafd;
+            padding: 1.2rem 1.8rem;
+            border-left: 8px solid #1f6e8c;
+            border-radius: 30px 30px 0 0;
+        }
+        .chapitre-titre h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #155f75;
+        }
+        .chapitre-titre p {
+            font-size: 0.88rem;
+            color: #4f7b92;
+            margin-top: 6px;
+        }
+        .dual-expand {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 2rem;
+        }
+        .fr {
+            flex: 1;
+            background: #ffffff;
+            border-left: 4px solid #2c7da0;
+            padding-left: 1.5rem;
+        }
+        .ar {
+            flex: 1;
+            background: #ffffff;
+            border-right: 4px solid #d4af37;
+            padding-right: 1.5rem;
+            direction: rtl;
+            font-family: 'Noto Sans Arabic', 'Segoe UI', 'Tahoma', sans-serif;
+        }
+        .fr h3, .ar h3 {
+            font-size: 1.45rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: inline-block;
+            border-bottom: 3px solid #cbdde9;
+            padding-bottom: 0.3rem;
+        }
+        .fr h3 { color: #1f6e8c; }
+        .ar h3 { color: #b47c2e; }
+        .fr p, .ar p {
+            margin-bottom: 1rem;
+            font-size: 0.98rem;
+        }
+        .ar p {
+            line-height: 1.75;
+        }
+        .liste-detail {
+            margin: 0.75rem 0 1rem 1.6rem;
+        }
+        .liste-detail li {
+            margin-bottom: 0.5rem;
+        }
+        .encadre-savoir {
+            background: #f8fafd;
+            padding: 1rem 1.3rem;
+            border-radius: 28px;
+            margin-top: 1.2rem;
+            font-size: 0.88rem;
+            border-left: 4px solid #2c7da0;
+            color: #215f77;
+        }
+        hr {
+            margin: 0 1rem;
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, #e0ecf3, transparent);
+        }
+        .footer-exam {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            background: #f0f6fa;
+            padding: 1rem;
+            border-radius: 48px;
+            color: #1f5e74;
+            font-weight: 500;
+        }
+        @media (max-width: 900px) {
+            .dual-expand { flex-direction: column; }
+            .fr, .ar { border-left: none; border-right: none; padding: 0; }
+            .ar { direction: ltr; text-align: right; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>📘 Économie monétaire – Synthèse ÉLARGIE & EXHAUSTIVE</h1>
+        <p>Pr Errachid Majidi – Semestre 3 (2022-2023) | Tous les chapitres, concepts, exemples et mécanismes</p>
+        <div style="font-size:0.8rem; margin-top:8px;">🔍 Version ultra-détaillée : définitions, formes historiques, fonctions, agrégats, création monétaire (multiplicateur/diviseur), politique monétaire, inflation</div>
+    </div>
+
+    <!-- CHAPITRE INTRODUCTIF (très détaillé) -->
+    <div class="chapitre">
+        <div class="chapitre-titre">
+            <h2>🔎 Chapitre introductif – La nature complexe de la monnaie</h2>
+            <p>Étymologie, controverses (Mill vs Keynes), définitions (Chameau, Perroux), caractéristiques institutionnelles, limites du troc, coûts de transaction, foires, avantages de la monnaie marchandise et simplification des prix relatifs</p>
+        </div>
+        <div class="dual-expand">
+            <div class="fr">
+                <h3>📖 Développement intégral</h3>
+                <p><strong>• Étymologie et histoire :</strong> du latin « moneta » (déesse Jumon « l’avertisseuse »). La monnaie est un objet familier mais abstrait. Controverses : J.S. Mill (rôle insignifiant) vs Keynes (rôle primordial dans « Théorie générale »).</p>
+                <p><strong>• Trois définitions majeures :</strong><br>
+                - Chameau : « ensemble des actifs acceptés partout, par tous et en tout temps pour régler les dettes » → met en avant la confiance.<br>
+                - Définition par les pouvoirs : pouvoir d’achat (économique) + pouvoir libératoire (juridique) → capacité d’éteindre une dette.<br>
+                - Perroux : « instrument de paiement indéterminé, général et immédiat ».</p>
+                <p><strong>• Quatre caractéristiques fondamentales :</strong> 1) obligatoire (refus impossible par le créancier), 2) indéterminé (valable pour toute dette), 3) général / universel (accepté sur tout le territoire), 4) effet immédiat (instantanéité de l’extinction de la dette). La monnaie est une institution sociale qui organise les rapports économiques.</p>
+                <p><strong>• Troc et ses inconvénients :</strong> nécessité de la double coïncidence des désirs (exemple : blé contre poisson). Coûts de transaction : coûts d’attente (frustration), coûts de stockage et gardiennage (produits périssables). Pour pallier cela, organisation de foires périodiques (fin de semaine, fin de mois) où offreurs et demandeurs se rencontrent.</p>
+                <p><strong>• Apparition de la monnaie marchandise :</strong> bien intermédiaire accepté par tous. Elle brise le troc en deux opérations distinctes (bien → monnaie → bien). Elle simplifie drastiquement le système des prix : dans une économie de n biens, on passe de n(n-1)/2 prix relatifs à (n-1) prix absolus (exemple concret : pain, sucre, huile → 3 prix relatifs sans monnaie, 2 prix absolus si le pain sert d’intermédiaire).</p>
+                <div class="encadre-savoir">💡 À retenir : La monnaie élimine la double coïncidence des désirs, réduit les coûts de transaction et devient l’équivalent général. Elle repose sur la confiance collective.</div>
+            </div>
+            <div class="ar">
+                <h3>📖 الشرح الموسع</h3>
+                <p><strong>• الأصل التاريخي:</strong> "مونيتا" اللاتينية (إلهة جومون). النقود معقدة ومحط جدل: ميل (دور تافه) مقابل كينز (دور أساسي).</p>
+                <p><strong>• ثلاثة تعريفات رئيسية:</strong> شامو (أصل مقبول دوماً)، التعريف بالقدرة الشرائية والإبراء، بيرو (أداة دفع غير محددة، عامة وفورية).</p>
+                <p><strong>• الخصائص الأربع:</strong> إجبارية، غير محددة، عامة (عالمية النطاق)، فورية → النقود مؤسسة اجتماعية.</p>
+                <p><strong>• المقايضة وعيوبها:</strong> التطابق المزدوج للرغبات، تكاليف انتظار وتخزين. ابتكار الأسواق الدورية (المعارض الأسبوعية).</p>
+                <p><strong>• ظهور سلعة النقود:</strong> سلعة وسيطة تقبلها الجماعة. تحطيم المقايضة وتبسيط الأسعار: من n(n-1)/2 سعر نسبي إلى (n-1) سعر مطلق (مثال: خبز، سكر، زيت).</p>
+                <div class="encadre-savoir">💡 النقود تلغي شرط التطابق المزدوج، تخفض التكاليف، وتصبح معادلاً عاماً قائماً على الثقة.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION I : FORMES DE MONNAIE (TOUT DÉTAIL) -->
+    <div class="chapitre">
+        <div class="chapitre-titre">
+            <h2>🏺 Section I – Les formes de la monnaie (historique et évolution complète)</h2>
+            <p>Monnaie marchandise (bétail, sel, coquillages, cigarettes) – métallique (loi de Gresham, bimétallisme) – fiduciaire (orfèvres, John Law, non-convertibilité 1971) – scripturale (chèque, virement, carte) – électronique (porte-monnaie, virtuelle)</p>
+        </div>
+        <div class="dual-expand">
+            <div class="fr">
+                <h3>🧾 Détail exhaustif</h3>
+                <p><strong>🔸 Monnaie marchandise :</strong> exemples historiques : bœuf (Egypte antique, Rome), épi d’orge (Mésopotamie 3000 av. J.-C.), feuille de thé (Asie du Sud), tabac (Virginie), coquillages Cauri (Chine 3000-1000 av. J.-C.), pierres précieuses (Amérindiens), haches, pelles (Afrique centrale), sel (Incas, origine du mot « salaire »). Pendant la 2e guerre mondiale : cigarette comme monnaie refuge en Allemagne et Grèce (hyperinflation). Qualités : reconnaissable, rare, divisible, valeur d’usage, confiance collective.</p>
+                <p><strong>🔸 Monnaie métallique :</strong> or, argent, cuivre. Qualités : divisibilité, inaltérabilité (ne s’abîme pas), malléabilité. Premières pièces : royaume de Lydie (VIIe siècle av. J.-C.). Bimétallisme (rapport 1 or = 15,5 argent). Loi de Gresham : « la mauvaise monnaie chasse la bonne » → les gens thésaurisent la monnaie dont la valeur augmente et utilisent celle qui se déprécie. Finalement monométallisme. Aujourd’hui monnaie divisionnaire (valeur faciale > valeur intrinsèque).</p>
+                <p><strong>🔸 Monnaie fiduciaire (papier) :</strong> du latin « fiducia » (confiance). Apparition en Chine. En Occident : 1ʳᵉ phase : certificats d’orfèvres (Goldsmiths de Londres) représentant des métaux précieux. 2ᵉ phase : émission de billets supérieure au stock de métal (Johan Palmstruch, Banque de Stockholm 1656). 3ᵉ phase : cours forcé, non-convertible depuis 1971 (décision de Nixon).</p>
+                <p><strong>🔸 Monnaie scripturale :</strong> écritures bancaires, dépôts à vue. Origines : tablettes d’argile (1800 av. J.-C.), virements chez les Grecs et Romains, civilisation arabo-musulmane (IXe-Xe siècle). Instruments : chèque, virement, carte bancaire, avis de prélèvement. Qualités : sécurité (moins de vol), simplicité (paiements importants sans déplacement), sûreté (traçabilité).</p>
+                <p><strong>🔸 Monnaie électronique :</strong> porte-monnaie électronique (carte à puce avec fonds préchargés) et monnaie virtuelle (paiements sur internet, stockée sur ordinateur). Abus de langage : toujours adossée à un compte scriptural.</p>
+                <div class="encadre-savoir">📌 Chaque forme monétaire a réduit les coûts de transaction par rapport à la précédente. La confiance reste le pilier fondamental.</div>
+            </div>
+            <div class="ar">
+                <h3>🧾 التفاصيل الكاملة للأشكال</h3>
+                <p><strong>🔸 سلعة النقود:</strong> أمثلة: بقرة (مصر القديمة)، شعير (بلاد الرافدين)، تبغ، صدف، ملح، سجائر (الحرب العالمية الثانية). صفات: نادرة، قابلة للقسمة، ثقة، قيمة استعمالية.<br>
+                <strong>🔸 النقود المعدنية:</strong> ذهب، فضة. قانون غريشام: "النقود الرديئة تطرد الجيدة". ازدواج المعدن (1ذهب = 15.5 فضة). نقود مساعدة حالياً.<br>
+                <strong>🔸 النقود الائتمانية:</strong> ثقة. مراحل: شهادات صياغ الذهب، إصدار أوراق تفوق الاحتياطي (يوهان بالمستروخ)، عدم قابلية التحويل منذ 1971. سعر إجباري.<br>
+                <strong>🔸 النقود الكتابية:</strong> قيود مصرفية، ودائع تحت الطلب. أدوات: شيك، تحويل، بطاقة بنكية، أمر خصم. مزايا: أمان، بساطة، إثبات.<br>
+                <strong>🔸 النقود الإلكترونية:</strong> محفظة إلكترونية، عملات رقمية على الإنترنت. تبقى تابعة للنقود الكتابية.</p>
+                <div class="encadre-savoir">📌 كل شكل جديد قلص تكاليف التبادل. الثقة هي الأساس.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION II : FONCTIONS (ARISTOTE, KEYNES) -->
+    <div class="chapitre">
+        <div class="chapitre-titre">
+            <h2>⚙️ Section II – Les trois fonctions monétaires (approfondissement)</h2>
+            <p>Intermédiaire des échanges (pouvoir libératoire), unité de compte (prix absolus vs relatifs), réserve de valeur (liquidité, incertitude, Keynes)</p>
+        </div>
+        <div class="dual-expand">
+            <div class="fr">
+                <h3>🎯 Explication détaillée</h3>
+                <p><strong>① Intermédiaire des échanges :</strong> fonction première. La monnaie divise le troc en deux actes (vente contre monnaie, achat avec monnaie). Elle supprime la double coïncidence des désirs. Elle offre un pouvoir libératoire (éteindre toute dette). Image : « huile dans les rouages de l’économie ».</p>
+                <p><strong>② Unité de compte :</strong> étalon de mesure des valeurs (comme le mètre). Avant la monnaie : prix relatifs (exemple : 3 biens → 3 prix). Avec monnaie : prix absolus (n-1). Permet les comparaisons spatiales (entre marchés) et temporelles (évolution dans le temps). C’est la plus ancienne fonction (monnaie abstraite, imaginaire avant toute monnaie physique).</p>
+                <p><strong>③ Réserve de valeur :</strong> capacité à conserver le pouvoir d’achat dans le temps. L’agent peut reporter son pouvoir d’achat et se prémunir contre l’incertitude. Keynes : la monnaie constitue un lien entre le présent et l’avenir. Supériorité par rapport à l’or ou l’immobilier : liquidité absolue (disponibilité immédiate pour les règlements). Si l’une des trois fonctions manque, l’objet n’est plus une monnaie proprement dite.</p>
+                <div class="encadre-savoir">📜 Aristote : « Parfois la monnaie semble une pure futilité… si on l’abandonne, elle devient sans valeur. »</div>
+            </div>
+            <div class="ar">
+                <h3>🎯 الوظائف الثلاث بالتفصيل</h3>
+                <p><strong>① وسيط للتبادل:</strong> تقسم المقايضة إلى بيع وشراء. تلغي شرط التطابق المزدوج. قدرة إبراء الذمة.<br>
+                <strong>② وحدة حساب:</strong> مقياس القيم. تستبدل الأسعار النسبية بأسعار مطلقة. تسمح بمقارنات مكانية وزمانية. أقدم وظيفة (نقود خيالية).<br>
+                <strong>③ مخزن للقيمة:</strong> الحفاظ على القوة الشرائية عبر الزمن، مواجهة عدم اليقين (كينز: صلة بين الحاضر والمستقبل). تتميز بالسيولة الفورية. اختفاء إحدى الوظائف يعني زوال صفة النقود.</p>
+                <div class="encadre-savoir">📜 أرسطو: "قد تبدو النقود تافهة لكنها بلا قيمة إذا استبدلت بأخرى".</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CHAPITRE II : MASSE MONÉTAIRE ET AGRÉGATS (MAROC) -->
+    <div class="chapitre">
+        <div class="chapitre-titre">
+            <h2>📊 Chapitre II – La masse monétaire et ses agrégats (Bank Al Maghrib)</h2>
+            <p>M1, M2, M3, agrégats de placements liquides PL1, PL2, PL3, vitesse de circulation (PIB/M3), taux de liquidité</p>
+        </div>
+        <div class="dual-expand">
+            <div class="fr">
+                <h3>🏦 Agrégats monétaires normes FMI</h3>
+                <p><strong>M1 (monnaie étroite) :</strong> monnaie divisionnaire (pièces) + monnaie fiduciaire (billets émis par la Banque centrale) + dépôts à vue (monnaie scripturale). Moyens de paiement immédiatement utilisables.<br>
+                <strong>M2 = M1 +</strong> placements à vue rémunérés : comptes sur carnets bancaires, livrets d’épargne nationale (non mobilisables par chèque).<br>
+                <strong>M3 = M2 +</strong> placements à terme : comptes à terme (particuliers), bons à échéance fixe, certificats de dépôts, pensions, dépôts en devises, OPCVM monétaires. M3 représente la masse monétaire (monnaie au sens large = monnaie + quasi-monnaie).<br>
+                <strong>Agrégats de placements liquides (PL) :</strong> PL1 (titres OPCVM contractuels, bons du Trésor, billets de trésorerie, bons sociétés de financement), PL2 (OPCVM obligations), PL3 (OPCVM actions et diversifiés). Ils mesurent la liquidité totale de l’économie (liquidité = agrégats monétaires + PL).<br>
+                <strong>Vitesse de circulation de la monnaie (VCM) :</strong> V = PIB / M3. Exemple : V=18 → un dirham sert à 18 transactions annuelles, change de main tous les 20 jours (360/18). Taux de liquidité = 1/V (inverse de la vitesse).</p>
+                <div class="encadre-savoir">⚠️ Ces agrégats excluent les avoirs des non-résidents, de la Banque centrale, des banques commerciales et de l’administration centrale (car ils ne reflètent pas la capacité de dépense des agents non financiers résidents).</div>
+            </div>
+            <div class="ar">
+                <h3>المجاميع النقدية (بنك المغرب)</h3>
+                <p><strong>M1:</strong> نقود مساعدة + ورقية + ودائع تحت الطلب.<br>
+                <strong>M2 = M1 +</strong> ودائع ادخارية مدعومة (دفاتر التوفير).<br>
+                <strong>M3 = M2 +</strong> ودائع لأجل، شهادات إيداع، سندات الخزينة، صناديق سوق النقد، ودائع بالعملات الأجنبية. M3 هو الكتلة النقدية.<br>
+                <strong>مجاميع السيولة PL:</strong> PL1 (سندات الخزينة، أذون الخزانة)، PL2 (صناديق السندات)، PL3 (صناديق الأسهم). السيولة الكلية = مجاميع نقدية + PL.<br>
+                <strong>سرعة دوران النقود:</strong> V = الناتج المحلي الإجمالي / M3. مثال V=18 → كل 20 يوماً تغير اليد. معدل السيولة = 1/V.</p>
+                <div class="encadre-savoir">⚠️ تستبعد المجاميع حيازات غير المقيمين والبنك المركزي والإدارة المركزية.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CHAPITRE III : CRÉATION MONÉTAIRE (TOUS LES MÉCANISMES) -->
+    <div class="chapitre">
+        <div class="chapitre-titre">
+            <h2>🏛️ Chapitre III – La création monétaire (approfondissement total)</h2>
+            <p>Définition, caractéristiques, sources principales (crédits ex nihilo, entrée de devises), sources secondaires, acteurs (banques commerciales, Banque centrale, Trésor), limites (fuites, réserves obligatoires, refinancement), multiplicateur du crédit, diviseur, liquidité bancaire</p>
+        </div>
+        <div class="dual-expand">
+            <div class="fr">
+                <h3>💰 Création monétaire : tout le mécanisme</h3>
+                <p><strong>Définition :</strong> accroissement de la quantité de monnaie en circulation (augmentation de M3) → augmentation du pouvoir d’achat des agents non financiers résidents (ANFR).</p>
+                <p><strong>Caractéristiques d’une opération créatrice :</strong> 1) lie un agent financier (banque) à un ANFR ; 2) augmente la capacité de dépense globale (et non pas un simple transfert d’un agent à un autre). Exemple : le dépôt ou le retrait de billets n’est pas une création, seulement une transformation fiduciaire/scripturale.</p>
+                <p><strong>Sources principales :</strong> octroi de crédits par les banques commerciales (création « ex nihilo » : les crédits font les dépôts) ; entrée de devises (exportations, transferts, tourisme). Sources secondaires : achat de titres financiers, achat de biens physiques, règlements du Trésor public (fonctionnaires, fournisseurs).</p>
+                <p><strong>Acteurs :</strong> Banques commerciales (rôle majeur mais limité), Banque centrale (monopole des billets, contrôle la liquidité bancaire, prêteur en dernier ressort), Trésor public (crée via les comptes de fonctionnaires).</p>
+                <p><strong>Limites à la création par les banques :</strong> 1) seules la Banque centrale émet les billets (monnaie centrale) ; 2) fuites en monnaie centrale (transferts vers d’autres banques ou retraits de billets) ; 3) réserves obligatoires (pourcentage des dépôts à maintenir à la Banque centrale). Pour se refinancer : marché interbancaire, puis réescompte ou pension auprès de la Banque centrale.</p>
+                <p><strong>Multiplicateur du crédit :</strong> MM = (1+b)/(b+r) × BM, avec b = fuite en billets, r = taux de réserve. Exemple : r=20%, b=0 → multiplicateur=5 (1000 de base monétaire → 5000 de masse monétaire).<br>
+                <strong>Diviseur (vision endogène) :</strong> les banques créent les crédits, puis cherchent le refinancement. La base monétaire est une division de la masse monétaire : BM = MM / k.</p>
+                <div class="encadre-savoir">🧠 Formule clé : « Les crédits font les dépôts », mais la création est limitée par la liquidité bancaire et les réserves obligatoires.</div>
+            </div>
+            <div class="ar">
+                <h3>💰 خلق النقود بالتفصيل الكامل</h3>
+                <p><strong>تعريف:</strong> زيادة الكتلة النقدية (M3) → ارتفاع القدرة الشرائية للوكلاء غير الماليين المقيمين.<br>
+                <strong>خصائص:</strong> 1) تربط وسيطاً مالياً بوكلاء غير ماليين. 2) تزيد القدرة الشرائية الإجمالية.<br>
+                <strong>المصادر الرئيسية:</strong> منح القروض (خلق من العدم: القروض تصنع الودائع) + دخول العملات الأجنبية. مصادر ثانوية: شراء أوراق مالية، مدفوعات الخزينة.<br>
+                <strong>الفاعلون:</strong> البنوك التجارية، البنك المركزي (مقرض الملاذ الأخير)، الخزينة العامة.<br>
+                <strong>محددات الخلق:</strong> التسربات، الاحتياطي الإجباري، إعادة التمويل (سوق ما بين البنوك، إعادة الخصم).<br>
+                <strong>المضاعف النقدي:</strong> الكتلة النقدية = (1+b)/(b+r) × القاعدة النقدية. مثال: معامل 5.<br>
+                <strong>المقسوم (رؤية داخلية):</strong> القاعدة النقدية = الكتلة النقدية / k.</p>
+                <div class="encadre-savoir">🧠 القاعدة الذهبية: "القروض تصنع الودائع"، لكن الخلق محدود بالسيولة المصرفية والاحتياطي الإجباري.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CHAPITRE IV : POLITIQUE MONÉTAIRE & INFLATION -->
+    <div class="chapitre">
+        <div class="chapitre-titre">
+            <h2>🎯 Chapitre IV – Politique monétaire, instruments et inflation</h2>
+            <p>Objectifs finals (stabilité des prix, croissance, plein emploi), objectifs intermédiaires (masse monétaire, taux d’intérêt, taux de change), instruments (réescompte, open market, pensions, réserves obligatoires, encadrement du crédit, sélectivité), causes de l’inflation (coûts, demande, importée) et conséquences</p>
+        </div>
+        <div class="dual-expand">
+            <div class="fr">
+                <h3>📉 Politique monétaire détaillée</h3>
+                <p><strong>Objectifs finals :</strong> stabilité des prix (priorité absolue – lutte contre l’inflation), équilibre externe (balance des paiements), croissance économique durable, plein emploi. La Banque centrale se concentre désormais sur le premier objectif.</p>
+                <p><strong>Objectifs intermédiaires :</strong> contrôle de la masse monétaire (éviter qu’une quantité excessive ne dévalue la monnaie), taux d’intérêt (influence l’épargne et l’investissement), taux de change (parité, dévaluation en cas de déficit structurel).</p>
+                <p><strong>Instruments :</strong><br>
+                - Réescompte : achat par la BC d’effets de commerce (taux directeur).<br>
+                - Open market et pensions (7j, 5j, 24h) : vente/achat de titres pour absorber ou fournir des liquidités.<br>
+                - Réserves obligatoires : pourcentage des dépôts bloqué sans intérêts à la BC.<br>
+                - Encadrement du crédit (abandonné en 1991 au Maroc) : fixation annuelle du taux de progression des crédits.<br>
+                - Politique sélective : taux bonifiés, avantages fiscaux, réseaux bancaires spécialisés pour financer les secteurs prioritaires.</p>
+                <p><strong>Inflation :</strong> hausse généralisée, régulière et durable des prix, accompagnée d’une baisse de la valeur de la monnaie.<br>
+                - Par les coûts (salaires, matières premières).<br>
+                - Par la demande (excès de demande globale).<br>
+                - Importée (prix mondiaux, afflux de devises).<br>
+                <strong>Conséquences :</strong> baisse du pouvoir d’achat, distorsions des décisions économiques, incertitude, transfert arbitraire de richesse.</p>
+                <div class="encadre-savoir">📌 La stabilité des prix est l’objectif majeur car l’inflation nuit à la fonction de réserve de valeur et à la croissance.</div>
+            </div>
+            <div class="ar">
+                <h3>السياسة النقدية والتضخم</h3>
+                <p><strong>الأهداف النهائية:</strong> استقرار الأسعار (أولوية)، التوازن الخارجي، النمو، التشغيل الكامل.<br>
+                <strong>الأهداف الوسيطة:</strong> الكتلة النقدية، سعر الفائدة، سعر الصرف.<br>
+                <strong>الأدوات:</strong> إعادة الخصم، السوق المفتوحة، الاحتياطي الإجباري، التوجيه الانتقائي للائتمان (أسعار ممنوحة).<br>
+                <strong>التضخم:</strong> ارتفاع مستمر ومعمم للأسعار. أنواعه: تضخم ناتج عن التكاليف، تضخم ناتج عن الطلب، تضخم مستورد.<br>
+                <strong>النتائج:</strong> تآكل القوة الشرائية، تشوهات، عدم يقين.</p>
+                <div class="encadre-savoir">📌 استقرار الأسعار هو الهدف الرئيسي لمكافحة التضخم.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-exam">
+        ✅ **Synthèse ÉLARGIE et COMPLÈTE** – Ce document reprend l'intégralité du cours « Monnaie I » (Pr Errachid Majidi) : origines, formes, fonctions, agrégats M1/M2/M3, création monétaire (multiplicateur, diviseur, liquidité bancaire), politique monétaire et inflation. Idéal pour réviser l'examen sans rien omettre.
+    </div>
+</div>
+</body>
+</html>
